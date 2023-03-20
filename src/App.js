@@ -14,7 +14,7 @@ function App({ root }) {
     }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/portfolio/'>
       <div className={`App ${theme}`} >
       <Navbar theme={theme} handleButtonClick={handleButtonClick} />
         <Routes>
