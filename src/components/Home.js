@@ -14,10 +14,10 @@ const Home = () => {
                     </p>
                 </div>
             <div className="icons">
-                <img src="https://github.com/NefisaB/portfolio/tree/main/public/icons/html5.svg" alt="html" className="icon"/>
-                <img src="https://github.com/NefisaB/portfolio/tree/main/public/icons/css3-alt.svg" alt="css" className="icon"/>
-                <img src="https://github.com/NefisaB/portfolio/tree/main/public/icons/js.svg" alt="javascript" className="icon" />
-                <img src="https://github.com/NefisaB/portfolio/tree/main/public/icons/react.svg" alt="react" className="icon"/>
+                <img src="https://github.com/NefisaB/portfolio/public/icons/html5.svg" alt="html" className="icon"/>
+                <img src="https://github.com/NefisaB/portfolio/public/icons/css3-alt.svg" alt="css" className="icon"/>
+                <img src="https://github.com/NefisaB/portfolio/public/icons/js.svg" alt="javascript" className="icon" />
+                <img src="https://github.com/NefisaB/portfolio/public/icons/react.svg" alt="react" className="icon"/>
             </div>
         </main>
      );

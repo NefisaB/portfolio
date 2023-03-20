@@ -1,7 +1,7 @@
 const data = [
     {
         title: "Shopping Cart App",
-        src: "https://github.com/NefisaB/portfolio/tree/main/public/images/shopping-cart-app.png",
+        src: "https://github.com/NefisaB/portfolio/public/images/shopping-cart-app.png",
         description: "Shopping App without backend. Users can manipulate with carts content.",
         liveLink: "https://nefisab.github.io/shopping-cart-top/",
         githubLink: "https://github.com/NefisaB/shopping-cart-top"
@@ -9,7 +9,7 @@ const data = [
 
     {
         title: "Where Is Waldo App",
-        src: "https://github.com/NefisaB/portfolio/tree/main/public/images/where-is-waldo-app.png",
+        src: "https://github.com/NefisaB/portfolio/public/images/where-is-waldo-app.png",
         description: "Classic Where Is Waldo Game with 3 levels and timer. Made with Firebase.",
         liveLink: "https://wheres-waldo-app-8a838.web.app/",
         githubLink: "https://github.com/NefisaB/where-is-waldo-app"
@@ -17,7 +17,7 @@ const data = [
 
     {
         title: "Books App",
-        src: "https://github.com/NefisaB/portfolio/tree/main/public/images/books-app.png",
+        src: "https://github.com/NefisaB/portfolio/public/images/books-app.png",
         description: "Books App allows login with email & password or Google login. Logged users have possibility to add and comment books.",
         liveLink: "https://books-app-821a9.web.app",
         githubLink: "https://github.com/NefisaB/books-app"
@@ -25,7 +25,7 @@ const data = [
 
     {
         title: "Memory Game App",
-        src: "https://github.com/NefisaB/portfolio/tree/main/public/images/memory-game-app.png",
+        src: "https://github.com/NefisaB/portfolio/public/images/memory-game-app.png",
         description: "Memory Game App where after every click cards shuffle.",
         liveLink: "https://nefisab.github.io/memory-game-top/",
         githubLink: "https://github.com/NefisaB/memory-game-top"
