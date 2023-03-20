@@ -77,8 +77,11 @@ nav > button:hover {
 }
 
 main {
+    width: 100%;
     padding: 100px 20px 0 20px;
     color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -97,6 +100,18 @@ h1 {
 .basic-info a {
     color: var(--color-text-secondary);
     font-style: italic;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: auto;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
 }
 
 .projects {
