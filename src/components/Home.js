@@ -1,11 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
     return ( 
         <main>
-            <h1>Welcome to my porftolio...</h1>
-            <p className="basic-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam ducimus rerum suscipit odio quaerat modi nostrum
-                voluptatem doloremque facilis iusto, assumenda accusantium non
-                aliquid optio quia? Cumque veniam distinctio fuga.</p>
+            <h1>Nefisa Brcaninovic</h1>
+            <p className="basic-info">
+                Hi and welcome to my portfolio.<br/>
+                As this heading above says my name is Nefisa and I am software developer in making.<br/> 
+                I have tried Java, Android and even Python Programming, but finally settled with JavaScript, and everything 
+                that goes with it.<br/>
+                You can find some of my nicer projects <Link to={"/projects"} >HERE</Link>, and everything else I have done in last 
+                6 months, at my <a href="https://github.com/NefisaB" >GITHUB PAGE</a>.
+            </p>
         </main>
      );
 }

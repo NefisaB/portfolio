@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Navbar = ({theme, handleButtonClick}) => {
 
     return ( 
         <nav>
             <div className="nav-links">
-                <a href="/" >Home</a>
-                <a href="/" >Projects</a>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/projects"}>Projects</Link>
             </div>
             <button className={theme}
-                onClick={handleButtonClick}>{theme}</button>
+                onClick={handleButtonClick}>{theme !== "light" ? "light" : "dark"}</button>
         </nav>
      );
 }

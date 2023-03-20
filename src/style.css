@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap');
 
 .dark {
     --color-bg-primary: rgb(103 44 0);
@@ -20,7 +20,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Pacifico', sans-serif;
 }
 
 .App {
@@ -28,6 +27,7 @@
     background-color: var(--color-bg-primary);
     display: flex;
     align-items: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
@@ -46,29 +46,33 @@ nav {
 .nav-links {
     display: flex;
     gap: 15px;
-    font-size: 1.25rem;
 }
 
 .nav-links > a {
+    font-size: 1.5rem;
     color: var(--color-text-secondary);
+    text-decoration: none;
 }
 
 .nav-links>a:hover {
-    color: var(--color-text-primary);
+    cursor: default;
+    text-decoration: underline;
 }
 
 nav > button {
     width: 150px;
     padding: 10px;
     color: var(--color-text-primary);
-    background-color: var(--color-bg-secondary);
+    background-color: var(--color-bg-primary);
     font-size: 1rem;
     border: none;
     border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
 }
 
 nav > button:hover {
-    background-color: var(--color-bg-primary);
+    background-color: var(--color-bg-secondary);
     transform: scale(105%);
 }
 
@@ -78,11 +82,69 @@ main {
 }
 
 h1 {
+    font-style: italic;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .basic-info {
-    max-width: 50%;
+    max-width: 70%;
+    font-size: 1.25rem;
+}
+
+.basic-info a {
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+.projects {
+    width: 100%;
+    padding: 100px 20px 0 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
+}
+
+.project {
+    max-width: 350px;
+    padding: 10px;
+    background-color: var(--color-bg-secondary);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--color-text-secondary)
+}
+
+.project > img {
+    width: 100%;
+    border-radius: 6px;
+    height: 70%;
+}
+
+.project > h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.project > p {
+    margin-bottom: auto;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-links > a {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+}
+
+.project-links>a:hover {
+    color: var(--color-text-primary);
+    cursor: pointer;
 }
