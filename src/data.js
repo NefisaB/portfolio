@@ -1,7 +1,7 @@
 const data = [
     {
         title: "Shopping Cart App",
-        src: `${process.env.PUBLIC_URL}/public/images/shopping-cart-app.png`,
+        src: `${process.env.PUBLIC_URL}/images/shopping-cart-app.png`,
         description: "Shopping App without backend. Users can manipulate with carts content.",
         liveLink: "https://nefisab.github.io/shopping-cart-top/",
         githubLink: "https://github.com/NefisaB/shopping-cart-top"
@@ -17,7 +17,7 @@ const data = [
 
     {
         title: "Books App",
-        src: `${process.env.PUBLIC_URL}/public/images/books-app.png`,
+        src: `${process.env.PUBLIC_URL}/images/books-app.png`,
         description: "Books App allows login with email & password or Google login. Logged users have possibility to add and comment books.",
         liveLink: "https://books-app-821a9.web.app",
         githubLink: "https://github.com/NefisaB/books-app"
@@ -25,7 +25,7 @@ const data = [
 
     {
         title: "Memory Game App",
-        src: `${process.env.PUBLIC_URL}/public/images/memory-game-app.png`,
+        src: `${process.env.PUBLIC_URL}/images/memory-game-app.png`,
         description: "Memory Game App where after every click cards shuffle.",
         liveLink: "https://nefisab.github.io/memory-game-top/",
         githubLink: "https://github.com/NefisaB/memory-game-top"
