@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.dark {
+    --color-bg-primary: rgb(103 44 0);
+    --color-bg-secondary: rgb(92, 61, 46);
+    --color-bg-nav: rgb(18 14 13 / 60%);
+    --color-text-primary: rgb(255 196 121);
+    --color-text-secondary: rgb(255 208 148 / 83%);
+}
+
+.light {
+    --color-bg-primary: rgb(255, 237, 219);
+    --color-bg-secondary: rgb(237, 205, 187);
+    --color-bg-nav: rgb(227, 183, 160);
+    --color-text-primary: rgb(111, 70, 40);
+    --color-text-secondary: rgb(82, 32, 8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.App {
+    min-height: 100vh;
+    background-color: var(--color-bg-primary);
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: var(--color-bg-nav);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    font-size: 1.25rem;
+}
+
+.nav-links > a {
+    color: var(--color-text-secondary);
+}
+
+.nav-links>a:hover {
+    color: var(--color-text-primary);
+}
+
+nav > button {
+    width: 150px;
+    padding: 10px;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-secondary);
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+}
+
+nav > button:hover {
+    background-color: var(--color-bg-primary);
+    transform: scale(105%);
+}
+
+main {
+    padding: 100px 20px 0 20px;
+    color: var(--color-text-secondary);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.basic-info {
+    max-width: 50%;
+}
