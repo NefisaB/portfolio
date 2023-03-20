@@ -9,7 +9,7 @@ const data = [
 
     {
         title: "Where Is Waldo App",
-        src: "https://github.com/NefisaB/portfolio/public/images/where-is-waldo-app.png",
+        src: `${process.env.PUBLIC_URL} + /images/where-is-waldo-app.png`,
         description: "Classic Where Is Waldo Game with 3 levels and timer. Made with Firebase.",
         liveLink: "https://wheres-waldo-app-8a838.web.app/",
         githubLink: "https://github.com/NefisaB/where-is-waldo-app"
